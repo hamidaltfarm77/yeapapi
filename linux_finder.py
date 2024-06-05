@@ -14,7 +14,7 @@ import asyncio
 
 LOG='https://discord.com/api/webhooks/1207020764000288849/ooaxtiwMobRJ4ZnVffCqVXaWH3vx31dTclsBXNVA3bKP9rQEOnyYec_WVTc/messages/1211077360607035443' #webhook for activity log replace numbes at the end of link wit hid of some prevous message sent by this webhook (message has to be in the same channel as webhook)
 
-GROUP='https://discord.com/api/webhooks/1207783896519802931/w6NItiPIq_cpEn1MVUywChjirqrvskrYOe9WvEF9M06_mwVyfZLd9kTzMQp' #webhook where found groups will be sent
+GROUP='https://discord.com/api/webhooks/1247963863614361621/Q5E-uRtlvs24FLaUCNuqwPgIiXT5wQyptSRbTO7Xz4VYVc5BDBRL2ERLYJ8BQaEdEFeY' #webhook where found groups will be sent
 
 SPECS='(16 cores HETZNER)'#server specification (optional)
 
