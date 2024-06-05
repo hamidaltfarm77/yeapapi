@@ -418,7 +418,7 @@ if __name__ == '__main__':
         working_cookies = asyncio.run(cookie_checker())
     except:
         exit(0)
-    id_range=[11000,17500000]
+    id_range=[11000,34000000]
     ids_per_worker = int((id_range[1] - id_range[0]) / len(working_cookies)) + 1
 
     workers = {}
