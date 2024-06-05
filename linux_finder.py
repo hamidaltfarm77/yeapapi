@@ -12,7 +12,7 @@ import asyncio
 #print(time.time()+3600*24*7)
 
 
-LOG='https://discord.com/api/webhooks/1207020764000288849/ooaxtiwMobRJ4ZnVffCqVXaWH3vx31dTclsBXNVA3bKP9rQEOnyYec_WVTc/messages/1211077360607035443' #webhook for activity log replace numbes at the end of link wit hid of some prevous message sent by this webhook (message has to be in the same channel as webhook)
+LOG='https://discord.com/api/webhooks/1247971261905109095/Z76tCfCATBv623ulfOMmofxC7bDPU9C5g1fnoJiWkywrGf1dnT-MQL6FKt6eNGAwGIfW/messages/1247971755167842355' #webhook for activity log replace numbes at the end of link wit hid of some prevous message sent by this webhook (message has to be in the same channel as webhook)
 
 GROUP='https://discord.com/api/webhooks/1247963863614361621/Q5E-uRtlvs24FLaUCNuqwPgIiXT5wQyptSRbTO7Xz4VYVc5BDBRL2ERLYJ8BQaEdEFeY' #webhook where found groups will be sent
 
@@ -118,7 +118,7 @@ def get_detailed_info(owner_queue,log_queue,timeout,file_queue):
                             if claimable == False:
                                 file_queue.put(['blocked_ids.txt',str(group_id)+'\n'])
                             else:
-                                #print('FoundGroup', group_id)
+                                print('FoundGroup', group_id)
                                 hookData= {
                                   "content": SPECS+'https://roblox.com/groups/'+str(group_id),
                                   "username": "Gamek989",
