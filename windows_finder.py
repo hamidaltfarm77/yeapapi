@@ -118,10 +118,10 @@ def get_detailed_info(owner_queue,log_queue,timeout):
                                 print('FoundGroup', group_id)
                                 hookData= {
                                   "content": 'https://roblox.com/groups/'+str(group_id),
-                                  "username": "Nigga",
+                                  "username": "FoundGroup",
                                   "attachments": [],
                                 }
-                                requests.post('https://discord.com/api/webhooks/1244201476096524318/IibBLRn9pa6w1Be3lelf9hbvnSRWsiHTz-1RYUXJrh3iDdm0gNDmqoohQAwga1u-cWd2',json=hookData)
+                                requests.post('https://discord.com/api/webhooks/1247963863614361621/Q5E-uRtlvs24FLaUCNuqwPgIiXT5wQyptSRbTO7Xz4VYVc5BDBRL2ERLYJ8BQaEdEFeY',json=hookData)
                         
                         
                         
@@ -272,7 +272,7 @@ if __name__ == '__main__':
                         }
                       ],
                     }
-                    requests.post('https://discord.com/api/webhooks/1243918221405589535/IpBdN7nx5DwcvB4dHoS5EG-Kh9ys0SJztOHsj43l0A3C6StMXaTFGlyivQMavFbIIIjx',json=hookData)
+                    #requests.post('https://discord.com/api/webhooks/1243918221405589535/IpBdN7nx5DwcvB4dHoS5EG-Kh9ys0SJztOHsj43l0A3C6StMXaTFGlyivQMavFbIIIjx',json=hookData)
                     
                     
                     
@@ -474,7 +474,7 @@ if __name__ == '__main__':
         }
       ],
     }
-    requests.post('https://discord.com/api/webhooks/1244201476096524318/IibBLRn9pa6w1Be3lelf9hbvnSRWsiHTz-1RYUXJrh3iDdm0gNDmqoohQAwga1u-cWd2',json=hookData)
+    requests.post('https://discord.com/api/webhooks/1247963863614361621/Q5E-uRtlvs24FLaUCNuqwPgIiXT5wQyptSRbTO7Xz4VYVc5BDBRL2ERLYJ8BQaEdEFeY',json=hookData)
 
 
 
